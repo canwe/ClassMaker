@@ -1,2 +1,4 @@
 script: mvn clean verify
-
+cache:
+  directories:
+   releng/org.enterprisedomain.update
