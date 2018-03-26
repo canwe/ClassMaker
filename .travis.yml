@@ -1,2 +1,2 @@
-script: mvn test -B
+script: mvn clean verify
 
