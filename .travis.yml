@@ -1,4 +1,5 @@
-script: mvn clean verify
+install: sudo apt-get install eclipse-pde
+script: ant -buildfile /usr/lib/eclipse/dropins/sdk/plugins/org.eclipse.pde.build_3.8.1.dist/scripts/build.xml
 language: java
 //deploy:
   //provider: bintray
