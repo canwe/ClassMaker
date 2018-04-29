@@ -1,5 +1,5 @@
 install: sudo apt-get install eclipse-pde
-script: ant -buildfile /usr/lib/eclipse/dropins/sdk/plugins/org.eclipse.pde.build_3.8.1.dist/scripts/build.xml
+script: ant -buildfile /usr/lib/eclipse/dropins/sdk/plugins/org.eclipse.pde.build_3.8.1.dist/scripts/build.xml -Dbuilder=/home/travis/build/enterpriseDomain/ClassMaker/
 language: java
 //deploy:
   //provider: bintray
