@@ -1,4 +1,4 @@
-install: sudo apt-get install eclipse-pde
+install: sudo apt-get install eclipse-rcp
 script: java -jar /usr/lib/eclipse/plugins/org.eclipse.equinox.launcher_3.8.1.dist.jar -application org.eclipse.ant.core.antRunner -buildfile /usr/lib/eclipse/plugins/org.eclipse.pde.build_3.8.1.dist/scripts/build.xml -Dbuilder=/home/travis/enterpriseDomain/ClassMaker/features/org.enterprisedomain.classmaker.feature
 language: java
 //deploy:
