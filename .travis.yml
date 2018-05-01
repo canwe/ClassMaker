@@ -1,4 +1,4 @@
-script: clean verify
+script: mvn clean verify
 language: java
 //deploy:
   //provider: bintray
