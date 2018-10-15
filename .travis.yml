@@ -2,6 +2,11 @@ script: mvn clean verify
 language: java
 jdk:
   - openjdk10
+cache:
+  directories:
+  - $HOME/.m2
+before_install:
+  - cp toolchains.xml ~/.m2/toolchains.xml 
 //deploy:
   //provider: bintray
   //file: releng/release.json
