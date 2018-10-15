@@ -1,5 +1,7 @@
-script: mvn clean verify -t toolchains.xml
+script: mvn clean verify
 language: java
+jdk:
+  - openjdk10
 //deploy:
   //provider: bintray
   //file: releng/release.json
