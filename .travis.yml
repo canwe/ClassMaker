@@ -1,4 +1,4 @@
-script: mvn clean verify
+script: mvn clean verify -t toolchains.xml
 language: java
 //deploy:
   //provider: bintray
